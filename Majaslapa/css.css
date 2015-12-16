@@ -1,0 +1,52 @@
+body{
+	background-color: black;
+}
+
+
+.kakis2 {
+		height: 600px;
+	 width: 800px;	
+}
+.kakis1{
+	height: 1000px;
+	 width: 800px;	
+}
+.kakis{
+	height: 100px;
+	 width: 100px;
+}
+
+.logo1{
+	background-color: green;
+	margin: 10px auto;
+	width: 100px;
+	height: 100px ;
+}
+
+.logo, .mainContent, .menu, .footer{
+	margin: 10px auto;
+	background-color:green;
+	width: 800px;
+}  
+
+
+.izvelne2 {
+background:green;
+padding:10px;
+}
+
+.izvelne2  li{
+list-style-type:none;  /*tiek noòemta nesakârtotâ saraksta simbols pirms nosaukuma*/
+display:inline; /* saraksts tiek atspoguïots horizontâli (pçc noklusçjuma tiek atspoguïots vertikâli) */
+}
+
+.izvelne2 li a{
+text-decoration:none; /*tiek noòemts noklusçtâ krâsa */
+background:green;
+color:#ffffff; /* teksta krâsa */
+padding:10px; /*attâlums no teksta lîdz taisnastûra malâm*/
+}
+
+.izvelne2 li a:hover{
+padding:20px;
+}
